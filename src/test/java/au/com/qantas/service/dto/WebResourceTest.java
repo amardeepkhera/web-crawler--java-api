@@ -16,7 +16,7 @@ public class WebResourceTest {
     private static final String FIXED_HOST = "http://qantas.com/";
 
     @Test
-    public void shouldReturnEmptyLinksForEmptyEmptyLinks() {
+    public void shouldReturnEmptyLinksForEmptyLinks() {
         final WebResource webResource = WebResource.builder()
                 .build();
 
